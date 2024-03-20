@@ -16,3 +16,6 @@ La complejidad clínica que caracteriza la MCH tiene su base en su heterogeneida
 ### **Bibliográfica** 
 García-Castro, M., Coto, E., Reguero, J. R., Berrazueta, J. R., Álvarez, V., Alonso, B., Sainz, R., Martín, M., & Morís, C. (2009). Espectro mutacional de los genes sarcoméricos MYH7, MYBPC3, TNNT2, TNNI3 y TPM1 en pacientes con miocardiopatía hipertrófica. Revista Espanola de Cardiologia, 62(1), 48–56. https://doi.org/10.1016/S0300-8932(09)70020-X
 
+Márquez, M. F., de Jesús Ruíz-Siller, T., Méndez-Ramos, R., Karabut, E., Aranda-Fraustro, A., & Jiménez-Becerra, S. (2016). Miocardiopatía hipertrófica (MCH). Una revisión histórica y anatomopatológica. Gaceta médica de México, 152(5), 697-702.
+
+Navarro-López, F. (2004). Miocardiopatía hipertrófica. Bases genéticas e implicaciones clínicas. Rev. esp. cardiol.(Ed. impr.), 22-32.
