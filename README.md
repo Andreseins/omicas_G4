@@ -8,7 +8,7 @@ ENSAMBLE DEL GENOMA USANDO DATOS DE SECUENCIACIÓN DE PACBIO DE LA ESPECIE DE HO
 *	Realizar procedimientos de alineación y ensamblaje utilizando las plataformas web y herramientas para el efecto.
 *	Identificar variaciones genéticas.
 *	Caracterizar e identificar regiones complejas del genoma.
--	Validar la calidad de la secuenciación final de la especie en cuestión a partir del análisis comparativo de los bancos de datos de PacBio.
+* Validar la calidad de la secuenciación final de la especie en cuestión a partir del análisis comparativo de los bancos de datos de PacBio.
 
 ## Introducción 
 Para el desarrollo del tutorial escogido, se procedió a ensamblar un genoma de una especie de hongo de la familia Mucoraceae, Mucor mucedo, a partir del banco de datos de secuenciación de PacBio, que es un secuenciador que utiliza lecturas largas de genes. Estos datos se obtuvieron de la plataforma web NCBI (National Center for Biotechnology Information) por sus siglas en inglés, donde se extrajo las siguientes secuencias, SRR8534473 , SRR8534474 y SRR8534475 (NCBI., 2024). Se analizará la calidad del conjunto obtenido, en particular comparándolo con un conjunto de referencia, obtenido con el ensamblador Falcon y disponible en el sitio web de JGI.
@@ -20,9 +20,9 @@ Al smrt bell se adiciona una DNA polimerasa y un primer, para iniciar la síntes
 ## Procedimiento 
 ### Obtención de los datos
 *	Usaremos datos de secuenciación de lecturas largas: CLR (lecturas largas continuas) de la secuenciación PacBio del genoma de la especie de hongo Mucor mucedo.
-*		Adicionalmente utilizaremos más adelante un ensamblaje del genoma de referencia descargado del sitio web del JGI. Este genoma de referencia se ensambló utilizando los mismos datos de PacBio, lo usaremos como comparación con nuestro propio ensamblaje.
+*	Adicionalmente utilizaremos más adelante un ensamblaje del genoma de referencia descargado del sitio web del JGI. Este genoma de referencia se ensambló utilizando los mismos datos de PacBio, lo usaremos como comparación con nuestro propio ensamblaje.
 ### Descarga de los genomas para ensamblaje de Zenodo
-*1. Para esta actividad creamos una nueva hoja de trabajo en la plataforma web Galaxy.
+* 1. Para esta actividad creamos una nueva hoja de trabajo en la plataforma web Galaxy.
 ### **Bibliográfica** 
 García-Castro, M., Coto, E., Reguero, J. R., Berrazueta, J. R., Álvarez, V., Alonso, B., Sainz, R., Martín, M., & Morís, C. (2009). Espectro mutacional de los genes sarcoméricos MYH7, MYBPC3, TNNT2, TNNI3 y TPM1 en pacientes con miocardiopatía hipertrófica. Revista Espanola de Cardiologia, 62(1), 48–56. https://doi.org/10.1016/S0300-8932(09)70020-X
 
