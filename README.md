@@ -1,12 +1,15 @@
 # omicas_G4
 Proyecto Final
-##Autores:Victor Cevallos, Andres Cuenca, Paola Gusqui
+## Autores:Victor Cevallos, Andres Cuenca, Paola Gusqui
 # TEMA: ENSAMBLE DEL GENOMA USANDO DATOS DE SECUENCIACIÓN DE PACBIO DE LA ESPECIE DE HONGO *Mucor mucedo*
 ## Objetivo General:  
-Controlar la calidad del gen de mutación TNNI3 en la Miocardiopatía hipertrófica
+ENSAMBLE DEL GENOMA USANDO DATOS DE SECUENCIACIÓN DE PACBIO DE LA ESPECIE DE HONGO *Mucor mucedo*
 ### Objetivos específicos: 
-Realizar el control de calidad en FastQC
-Corregir el control de calidad mediante diferentes parámetros en el Trimmomatic
+*	Realizar procedimientos de alineación y ensamblaje utilizando las plataformas web y herramientas para el efecto.
+*	Identificar variaciones genéticas.
+*	Caracterizar e identificar regiones complejas del genoma.
+-	Validar la calidad de la secuenciación final de la especie en cuestión a partir del análisis comparativo de los bancos de datos de PacBio.
+
 ## Introducción 
 La miocardiopatía hipertrófica (MCH) se define que es el aumento del grosor de la pared del ventrículo izquierdo, La MCH es la enfermedad cardiovascular monogénica más común que se manifiesta en el 0,2% de la población, es decir, en una de cada 500 personas. En estudios reciente se estima la prevalencia en una de cada 200 personas (0,5% de la población general). 
 Se ha establecido que la etiopatogenia de la enfermedad no está totalmente esclarecida. La MCH se produce por medio de mutaciones en diferentes genes (heterogeneidad genética), aunque el modelo de transmisión sea monogénico. Las mutaciones genéticas de las proteínas sarcoméricas suponen el 40-60% de todas las causas de MCH5. La MCH suele transmitirse de forma autosómica dominante y se han identificado que de 25-30 genes responsables. Estos genes codifican, además de la síntesis de las proteínas sarcoméricas. La localización puede estar en regiones inexploradas de los genes conocidos, causantes de MCH, o localizarse en genes aún no relacionados con la misma, pero se ha determinado que la mutación en el Gen TNNI3 produce este padecimiento en algunos pacientes (García-Castro et al., 2009).
