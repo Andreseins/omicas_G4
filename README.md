@@ -37,27 +37,47 @@ Al smrt bell se adiciona una DNA polimerasa y un primer, para iniciar la síntes
    ![image](https://github.com/Andreseins/omicas_G4/assets/163220753/b23c9437-e0e8-4afb-aeaa-23a6ac515283)
 2. Una vez identificado el archivo de interés, procedemos a descargarlo *Mucmuc1_AssemblyScaffolds.fasta*
 ![image](https://github.com/Andreseins/omicas_G4/assets/163220753/8676cf2b-cdac-4689-a363-1747894269ca)
-4. Se procede a descargar el archivo.
-5. Luego de haber sido descargado el archivo, se verifica que el mismo sea tipo FASTA.
+3. Se procede a descargar el archivo.
+![image](https://github.com/Andreseins/omicas_G4/assets/163220753/7584d75f-5281-460a-83b5-caa3a836e0a9)
+4. Luego de haber sido descargado el archivo, se verifica que el mismo sea tipo FASTA.
+![image](https://github.com/Andreseins/omicas_G4/assets/163220753/14128776-4ec4-498d-bdba-9cb524742a5d)
+
 ### Ensamble del genoma con Flye.
 **Flye**  es un software diseñado para ensamblar secuencias genómicas a partir de datos de secuenciación masiva. Para lecturas de secuenciación de moléculas individuales, como las producidas por secuenciadores como PacBio y Oxford Nanopore. Flye también tiene un modo especial para el ensamblaje del metagenoma, lo que implica que este software puede procesar datos genómicos complejos como resultado de comunidades microbianas mixtas. (Freire B., 2021)
 1. Ensamblamos una secuenciación única a partir de las 3 secuencias fastaq (SRR8534475, SRR8534474, SRR8534473) descargadas previamente.
+![image](https://github.com/Andreseins/omicas_G4/assets/163220753/2c6764b6-b60b-46f3-b752-13d319da05fe)
 2. Se obtiene 4 archivos de secuenciación única, a partir del ensamblaje de las 3 secuencias previas.
+![image](https://github.com/Andreseins/omicas_G4/assets/163220753/15ffe01b-124a-4137-9a35-25fa7a3d6798)
 3. El primer conjunto de datos (consenso) es un archivo FASTA que contiene el ensamblaje final de contings.
+![image](https://github.com/Andreseins/omicas_G4/assets/163220753/5a4932f3-a2cf-4bdd-bda9-14f046ead2b9)
 4. El segundo y tercer archivo proporciona el gráfico del ensamblaje de contings estructurados.
+![image](https://github.com/Andreseins/omicas_G4/assets/163220753/12b392db-781b-49cd-9a4d-a7f17291fbc0)
+![image](https://github.com/Andreseins/omicas_G4/assets/163220753/08360f08-e088-4015-ad16-52cd8e46158c)
+
 ### Métricas de ensamblaje del genoma con Fasta Statistics.
 FASTA statistics nos permite realizar cálculos de diferentes métricas del genoma obtenido, de secuencias de ADN o proteínas en formato FASTA, como el tamaño del ensamblaje, el número de andamios, así como el valor N50 (M. Baracochea.; 2018). Estas estadísticas nos pueden revelar información útil concerniente a la diversidad y composición de las secuencias en un conjunto de datos (autores).
 1. Realizamos un análisis estadístico de nuestro genoma ensamblado.
+![image](https://github.com/Andreseins/omicas_G4/blob/main/image.png)
 2. Realizamos un análisis estadístico de nuestro genoma de referencia
+![image](https://github.com/Andreseins/omicas_G4/assets/163220753/5c3f4cd9-c39a-4fa3-ba20-f3f749265543)
 3. Comparamos los resultados obtenidos, observando que los tanto los scaffold, contings, N50, L50, N90 son similares en ambos genomas
+![image](https://github.com/Andreseins/omicas_G4/assets/163220753/c8d8447b-0332-4f14-94d5-0521b5f593ab)
+![image](https://github.com/Andreseins/omicas_G4/assets/163220753/85a5e09a-dc9b-4e61-871d-5a4091dd48a7)
+
 ### Comparación de ensamblajes de genoma con Quast.
-1.	Quast, es una herramienta de evaluación de calidad para ensamblajes de genómicos, opcional al fasta stadistics, es una herramienta útil, que compara diferentes ensamblajes genómicos.
+1.	**Quast**, es una herramienta de evaluación de calidad para ensamblajes de genómicos, opcional al fasta stadistics, es una herramienta útil, que compara diferentes ensamblajes genómicos.
+![image](https://github.com/Andreseins/omicas_G4/assets/163220753/3c75d338-e1c0-41a3-bb6e-ce5fc9f5b33d)
 2.	En el gráfico inferior nos proporciona el orden de los contings (eje X) y el tamaño de los contings (eje Y).
+![image](https://github.com/Andreseins/omicas_G4/assets/163220753/0fd03d77-2267-4a50-b571-0cd771b5dddb)
 3.	El gráfico inferior nos proporciona el contenido de CG, tanto del genoma ensamblado como del genoma de referencia.
+![image](https://github.com/Andreseins/omicas_G4/assets/163220753/a5a2c11f-f820-4384-bca3-91dd0e1b0297)
+
 ### Evaluación del ensamblaje del genoma con BUSCO.
 Busco es una herramienta para la evaluación cuantitativa y la integridad del contenido genético esperado de un ensamblaje genómico.
 1.	Resultado de la evaluación de BUSCO del genoma ensamblado.
+![image](https://github.com/Andreseins/omicas_G4/assets/163220753/41e78cfb-d487-416b-82bf-e8d6b60611c8)
 2.	Resultado de la evaluación de BUSCO del genoma de referencia.
+![image](https://github.com/Andreseins/omicas_G4/assets/163220753/c8ee95f3-2c7f-43dd-8abd-ccc00ca9b3fc)
 3.	El análisis BUSCO confirma que estos dos ensamblajes son de calidad similar, con un número similar de genes. (El número de BUSCO C,S,D,F son similares).
 
 ### **Bibliográfica** 
