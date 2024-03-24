@@ -23,9 +23,5 @@ Al smrt bell se adiciona una DNA polimerasa y un primer, para iniciar la síntes
 *	Adicionalmente utilizaremos más adelante un ensamblaje del genoma de referencia descargado del sitio web del JGI. Este genoma de referencia se ensambló utilizando los mismos datos de PacBio, lo usaremos como comparación con nuestro propio ensamblaje.
 ### Descarga de los genomas para ensamblaje de Zenodo
 * 1. Para esta actividad creamos una nueva hoja de trabajo en la plataforma web Galaxy.
+  2. Cargamos la database a la plataforma Galaxy desde la página zenodo.org; concerniente a los tres archivos para el análisis. 
 ### **Bibliográfica** 
-García-Castro, M., Coto, E., Reguero, J. R., Berrazueta, J. R., Álvarez, V., Alonso, B., Sainz, R., Martín, M., & Morís, C. (2009). Espectro mutacional de los genes sarcoméricos MYH7, MYBPC3, TNNT2, TNNI3 y TPM1 en pacientes con miocardiopatía hipertrófica. Revista Espanola de Cardiologia, 62(1), 48–56. https://doi.org/10.1016/S0300-8932(09)70020-X
-
-Márquez, M. F., de Jesús Ruíz-Siller, T., Méndez-Ramos, R., Karabut, E., Aranda-Fraustro, A., & Jiménez-Becerra, S. (2016). Miocardiopatía hipertrófica (MCH). Una revisión histórica y anatomopatológica. Gaceta médica de México, 152(5), 697-702.
-
-Navarro-López, F. (2004). Miocardiopatía hipertrófica. Bases genéticas e implicaciones clínicas. Rev. esp. cardiol.(Ed. impr.), 22-32.
