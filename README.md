@@ -1,6 +1,7 @@
 # omicas_G4
-proyecto de omicas-borrador
-# TEMA: Control de calidad del gen de mutación TNNI3 en la Miocardiopatía hipertrófica
+Proyecto Final
+##Autores:Victor Cevallos, Andres Cuenca, Paola Gusqui
+# TEMA: ENSAMBLE DEL GENOMA USANDO DATOS DE SECUENCIACIÓN DE PACBIO DE LA ESPECIE DE HONGO *Mucor mucedo*
 ## Objetivo General:  
 Controlar la calidad del gen de mutación TNNI3 en la Miocardiopatía hipertrófica
 ### Objetivos específicos: 
