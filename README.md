@@ -57,7 +57,7 @@ Al smrt bell se adiciona una DNA polimerasa y un primer, para iniciar la síntes
 ### Métricas de ensamblaje del genoma con Fasta Statistics.
 FASTA statistics nos permite realizar cálculos de diferentes métricas del genoma obtenido, de secuencias de ADN o proteínas en formato FASTA, como el tamaño del ensamblaje, el número de andamios, así como el valor N50 (M. Baracochea.; 2018). Estas estadísticas nos pueden revelar información útil concerniente a la diversidad y composición de las secuencias en un conjunto de datos (autores).
 1. Realizamos un análisis estadístico de nuestro genoma ensamblado.
-![image](https://github.com/Andreseins/omicas_G4/blob/main/image.png)
+![image](https://github.com/Andreseins/omicas_G4/assets/163220753/5c3f4cd9-c39a-4fa3-ba20-f3f749265543)
 2. Realizamos un análisis estadístico de nuestro genoma de referencia
 ![image](https://github.com/Andreseins/omicas_G4/assets/163220753/5c3f4cd9-c39a-4fa3-ba20-f3f749265543)
 3. Comparamos los resultados obtenidos, observando que los tanto los scaffold, contings, N50, L50, N90 son similares en ambos genomas
