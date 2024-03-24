@@ -12,6 +12,7 @@ ENSAMBLE DEL GENOMA USANDO DATOS DE SECUENCIACIÓN DE PACBIO DE LA ESPECIE DE HO
 
 ## Introducción 
 Para el desarrollo del tutorial escogido, se procedió a ensamblar un genoma de una especie de hongo de la familia Mucoraceae, Mucor mucedo, a partir del banco de datos de secuenciación de PacBio, que es un secuenciador que utiliza lecturas largas de genes. Estos datos se obtuvieron de la plataforma web NCBI (National Center for Biotechnology Information) por sus siglas en inglés, donde se extrajo las siguientes secuencias, SRR8534473 , SRR8534474 y SRR8534475 (NCBI., 2024). Se analizará la calidad del conjunto obtenido, en particular comparándolo con un conjunto de referencia, obtenido con el ensamblador Falcon y disponible en el sitio web de JGI.
+![Cambio_ de_nombre](https://1drv.ms/f/s!AsZ7DvWLfbKtgiT3MTkVvLFx-gQL?e=v20nSj)
 ## PACBIO 
 PACBIO es un método de secuenciación masiva en tiempo real RT-Time sequencing, el cual produce secuencias largas de secuenciación, de esta secuenciación larga se obtiene reads de >25 kb, a diferencia de Ilumina que es un secuenciador de secuencias cortas que genera reads cortos de <0.6 kb. (Rhoads, A., & Au, K. F.; 2015).
 En metodología de secuenciación por PACBIO, se fragmenta el ADN en cadenas dsDNA, las cuales se coloca adaptadores semicirculares en los extremos de las cadenas a las cuales llamamos Smrt bell (Single Molecule Real Time) por sus siglas en inglés (McEwen, J. G., & Gómez, O. M.; 2023).
