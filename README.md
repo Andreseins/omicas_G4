@@ -30,4 +30,51 @@ Al smrt bell se adiciona una DNA polimerasa y un primer, para iniciar la síntes
 2. Cargamos la database a la plataforma Galaxy desde la página zenodo.org; concerniente a los tres archivos para el análisis. 
 ![image](https://github.com/Andreseins/omicas_G4/assets/163220753/dd1316cf-177c-4863-8c3f-5a4a3c07fe17)
 3. Empleando la plataforma web Galaxy, luego del análisis verificamos que la información contenida de los archivos están en formato FASTQ.
+![image](https://github.com/Andreseins/omicas_G4/assets/163220753/b7798411-7967-4e7b-8a4d-a658184c92af)
+
+### Descarga del genoma de referencia de JGI website.
+1. Ingresamos al website JGI, con la finalidad de buscar y proceder a descargar el archivo del genoma de referencia.
+2. Una vez identificado el archivo de interés, procedemos a descargarlo *Mucmuc1_AssemblyScaffolds.fasta*
+3. Se procede a descargar el archivo.
+4. Luego de haber sido descargado el archivo, se verifica que el mismo sea tipo FASTA.
+### Ensamble del genoma con Flye.
+**Flye**  es un software diseñado para ensamblar secuencias genómicas a partir de datos de secuenciación masiva. Para lecturas de secuenciación de moléculas individuales, como las producidas por secuenciadores como PacBio y Oxford Nanopore. Flye también tiene un modo especial para el ensamblaje del metagenoma, lo que implica que este software puede procesar datos genómicos complejos como resultado de comunidades microbianas mixtas. (Freire B., 2021)
+1. Ensamblamos una secuenciación única a partir de las 3 secuencias fastaq (SRR8534475, SRR8534474, SRR8534473) descargadas previamente.
+2. Se obtiene 4 archivos de secuenciación única, a partir del ensamblaje de las 3 secuencias previas.
+3. El primer conjunto de datos (consenso) es un archivo FASTA que contiene el ensamblaje final de contings.
+4. El segundo y tercer archivo proporciona el gráfico del ensamblaje de contings estructurados.
+### Métricas de ensamblaje del genoma con Fasta Statistics.
+FASTA statistics nos permite realizar cálculos de diferentes métricas del genoma obtenido, de secuencias de ADN o proteínas en formato FASTA, como el tamaño del ensamblaje, el número de andamios, así como el valor N50 (M. Baracochea.; 2018). Estas estadísticas nos pueden revelar información útil concerniente a la diversidad y composición de las secuencias en un conjunto de datos (autores).
+1. Realizamos un análisis estadístico de nuestro genoma ensamblado.
+2. Realizamos un análisis estadístico de nuestro genoma de referencia
+3. Comparamos los resultados obtenidos, observando que los tanto los scaffold, contings, N50, L50, N90 son similares en ambos genomas
+### Comparación de ensamblajes de genoma con Quast.
+1.	Quast, es una herramienta de evaluación de calidad para ensamblajes de genómicos, opcional al fasta stadistics, es una herramienta útil, que compara diferentes ensamblajes genómicos.
+2.	En el gráfico inferior nos proporciona el orden de los contings (eje X) y el tamaño de los contings (eje Y).
+3.	El gráfico inferior nos proporciona el contenido de CG, tanto del genoma ensamblado como del genoma de referencia.
+### Evaluación del ensamblaje del genoma con BUSCO.
+Busco es una herramienta para la evaluación cuantitativa y la integridad del contenido genético esperado de un ensamblaje genómico.
+1.	Resultado de la evaluación de BUSCO del genoma ensamblado.
+2.	Resultado de la evaluación de BUSCO del genoma de referencia.
+3.	El análisis BUSCO confirma que estos dos ensamblajes son de calidad similar, con un número similar de genes. (El número de BUSCO C,S,D,F son similares).
+
 ### **Bibliográfica** 
+* Freire, B., Ladra, S. & Parama, J.R. emory-Efficient Assembly using Flye. 
+IEEE/ACM Trans. Comput. Biol. Bioinforma. 1-1 (2021).
+* Rhoads, A., & Au, K. F. (2015). PacBio sequencing and its 
+applications. Genomics, Proteomics and Bioinformatics, 13(5), 278-289.
+* McEwen, J. G., & Gómez, O. M. (2023). Secuenciación de genomas 
+utilizando lectura de cadenas largas. Revista De La Academia Colombiana De Ciencias Exactas, Físicas Y Naturales, 47(183), 439–444. https://doi.org/10.18257/raccefyn.1937.
+* M. Beracochea, (2018). Bioinformática aplicada al estudio genómico de las 
+cepas endófitas Kosokonia sp. UYSO10 y Rhizobium sp. UYSO24.
+* NCBI (National Center for Biotechnology Information). (23 marzo de 2024) Recuperado de https://www.ncbi.nlm.nih.gov/ 
+* Galaxy Project. (23 marzo de 2024). Recuperado de https://usegalaxy.org/
+* OpenAI. (23 marzo de 2024). Recuperado de https://chat.openai.com 
+* GibHub. (23 marzo de 2024). Recuperado de https://github.com/ 
+* Zedono. (23 marzo de 2024). Recuperado de https://zenodo.org/ 
+* Pb-falcon. (23 marzo de 2024). Recuperado de https://pbfalcon.readthedocs.io/en/latest/
+* JGI Genome Portal. (23 marzo de 2024). Recuperado de https://genome.jgi.doe.gov/portal/
+* Fenderglass-Flye. (23 marzo de 2024). Recuperado de https://github.com/fenderglass/Flye 
+* Quast. (23 marzo de 2024). Recuperado de https://quast.sourceforge.net/ 
+* BUSCO. (23 marzo de 2024). Recuperado de https://busco.ezlab.org/
+
