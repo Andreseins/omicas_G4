@@ -12,7 +12,6 @@ ENSAMBLE DEL GENOMA USANDO DATOS DE SECUENCIACIÓN DE PACBIO DE LA ESPECIE DE HO
 
 ## Introducción 
 Para el desarrollo del tutorial escogido, se procedió a ensamblar un genoma de una especie de hongo de la familia Mucoraceae, Mucor mucedo, a partir del banco de datos de secuenciación de PacBio, que es un secuenciador que utiliza lecturas largas de genes. Estos datos se obtuvieron de la plataforma web NCBI (National Center for Biotechnology Information) por sus siglas en inglés, donde se extrajo las siguientes secuencias, SRR8534473 , SRR8534474 y SRR8534475 (NCBI., 2024). Se analizará la calidad del conjunto obtenido, en particular comparándolo con un conjunto de referencia, obtenido con el ensamblador Falcon y disponible en el sitio web de JGI.
-![image](https://github.com/Andreseins/omicas_G4/assets/163220753/bc3875c7-f938-4f3c-a95f-ff2632d61374)
 
 
 ## PACBIO 
@@ -25,6 +24,10 @@ Al smrt bell se adiciona una DNA polimerasa y un primer, para iniciar la síntes
 *	Usaremos datos de secuenciación de lecturas largas: CLR (lecturas largas continuas) de la secuenciación PacBio del genoma de la especie de hongo Mucor mucedo.
 *	Adicionalmente utilizaremos más adelante un ensamblaje del genoma de referencia descargado del sitio web del JGI. Este genoma de referencia se ensambló utilizando los mismos datos de PacBio, lo usaremos como comparación con nuestro propio ensamblaje.
 ### Descarga de los genomas para ensamblaje de Zenodo
+* 1. Para esta actividad creamos una nueva hoja de trabajo en la plataforma web Galaxy.
+  2. 2.	Cargamos la database a la plataforma Galaxy desde la página zenodo.org; concerniente a los tres archivos para el análisis. 
+![image](https://github.com/Andreseins/omicas_G4/assets/163220753/dd1316cf-177c-4863-8c3f-5a4a3c07fe17)
+
 * 1. Para esta actividad creamos una nueva hoja de trabajo en la plataforma web Galaxy.
   2. Cargamos la database a la plataforma Galaxy desde la página zenodo.org; concerniente a los tres archivos para el análisis. 
 ### **Bibliográfica** 
