@@ -34,9 +34,11 @@ Al smrt bell se adiciona una DNA polimerasa y un primer, para iniciar la síntes
 
 ### Descarga del genoma de referencia de JGI website.
 1. Ingresamos al website JGI, con la finalidad de buscar y proceder a descargar el archivo del genoma de referencia.
+   ![image](https://github.com/Andreseins/omicas_G4/assets/163220753/b23c9437-e0e8-4afb-aeaa-23a6ac515283)
 2. Una vez identificado el archivo de interés, procedemos a descargarlo *Mucmuc1_AssemblyScaffolds.fasta*
-3. Se procede a descargar el archivo.
-4. Luego de haber sido descargado el archivo, se verifica que el mismo sea tipo FASTA.
+![image](https://github.com/Andreseins/omicas_G4/assets/163220753/8676cf2b-cdac-4689-a363-1747894269ca)
+4. Se procede a descargar el archivo.
+5. Luego de haber sido descargado el archivo, se verifica que el mismo sea tipo FASTA.
 ### Ensamble del genoma con Flye.
 **Flye**  es un software diseñado para ensamblar secuencias genómicas a partir de datos de secuenciación masiva. Para lecturas de secuenciación de moléculas individuales, como las producidas por secuenciadores como PacBio y Oxford Nanopore. Flye también tiene un modo especial para el ensamblaje del metagenoma, lo que implica que este software puede procesar datos genómicos complejos como resultado de comunidades microbianas mixtas. (Freire B., 2021)
 1. Ensamblamos una secuenciación única a partir de las 3 secuencias fastaq (SRR8534475, SRR8534474, SRR8534473) descargadas previamente.
