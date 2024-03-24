@@ -17,6 +17,8 @@ Para el desarrollo del tutorial escogido, se procedió a ensamblar un genoma de 
 ## PACBIO 
 PACBIO es un método de secuenciación masiva en tiempo real RT-Time sequencing, el cual produce secuencias largas de secuenciación, de esta secuenciación larga se obtiene reads de >25 kb, a diferencia de Ilumina que es un secuenciador de secuencias cortas que genera reads cortos de <0.6 kb. (Rhoads, A., & Au, K. F.; 2015).
 En metodología de secuenciación por PACBIO, se fragmenta el ADN en cadenas dsDNA, las cuales se coloca adaptadores semicirculares en los extremos de las cadenas a las cuales llamamos Smrt bell (Single Molecule Real Time) por sus siglas en inglés (McEwen, J. G., & Gómez, O. M.; 2023).
+![image](https://github.com/Andreseins/omicas_G4/assets/163220753/ea786a6b-23c8-45b6-84bd-cf6a6fe470d3)
+
 
 Al smrt bell se adiciona una DNA polimerasa y un primer, para iniciar la síntesis de ADN. La síntesis del ADN se realiza con nucleótidos fluorescentes. La incorporación de cada nucleótido a la cadena bicatenaria de ADN, emite una luz el cual es detectada y graficada. 
 ## Procedimiento 
