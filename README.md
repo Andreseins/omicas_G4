@@ -79,6 +79,9 @@ Busco es una herramienta para la evaluación cuantitativa y la integridad del co
 2.	Resultado de la evaluación de BUSCO del genoma de referencia.
 ![image](https://github.com/Andreseins/omicas_G4/assets/163220753/c8ee95f3-2c7f-43dd-8abd-ccc00ca9b3fc)
 3.	El análisis BUSCO confirma que estos dos ensamblajes son de calidad similar, con un número similar de genes. (El número de BUSCO C,S,D,F son similares).
+### CONCLUSIONES 
+1.	De la comparación de la evaluación con BUSCO, se puede corroborar que el genoma secuenciado con PacBIO es de alta calidad y ensamblado con FLYE tiene escasa diferencia con el genoma de referencia comparado.  
+2.	El control de calidad realizado con FASTA STATISTICS y QUAST, nos permite verificar que la secuenciación y el ensamblaje del genoma es óptima.
 
 ### **Bibliográfica** 
 * Freire, B., Ladra, S. & Parama, J.R. emory-Efficient Assembly using Flye. 
