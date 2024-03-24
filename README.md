@@ -3,7 +3,7 @@ Proyecto Final
 ## Autores:Victor Cevallos, Andres Cuenca, Paola Gusqui
 # TEMA: ENSAMBLE DEL GENOMA USANDO DATOS DE SECUENCIACIÓN DE PACBIO DE LA ESPECIE DE HONGO *Mucor mucedo*
 ## Objetivo General:  
-ENSAMBLE DEL GENOMA USANDO DATOS DE SECUENCIACIÓN DE PACBIO DE LA ESPECIE DE HONGO *Mucor mucedo*
+ENSAMBLAR UN GENOMA USANDO DATOS DE SECUENCIACIÓN DE PACBIO DE LA ESPECIE DE HONGO *Mucor mucedo*
 ### Objetivos específicos: 
 *	Realizar procedimientos de alineación y ensamblaje utilizando las plataformas web y herramientas para el efecto.
 *	Identificar variaciones genéticas.
