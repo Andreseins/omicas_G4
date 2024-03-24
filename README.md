@@ -45,12 +45,13 @@ Al smrt bell se adiciona una DNA polimerasa y un primer, para iniciar la síntes
 ### Ensamble del genoma con Flye.
 **Flye**  es un software diseñado para ensamblar secuencias genómicas a partir de datos de secuenciación masiva. Para lecturas de secuenciación de moléculas individuales, como las producidas por secuenciadores como PacBio y Oxford Nanopore. Flye también tiene un modo especial para el ensamblaje del metagenoma, lo que implica que este software puede procesar datos genómicos complejos como resultado de comunidades microbianas mixtas. (Freire B., 2021)
 1. Ensamblamos una secuenciación única a partir de las 3 secuencias fastaq (SRR8534475, SRR8534474, SRR8534473) descargadas previamente.
+
 ![image](https://github.com/Andreseins/omicas_G4/assets/163220753/2c6764b6-b60b-46f3-b752-13d319da05fe)
-2. Se obtiene 4 archivos de secuenciación única, a partir del ensamblaje de las 3 secuencias previas.
+3. Se obtiene 4 archivos de secuenciación única, a partir del ensamblaje de las 3 secuencias previas.
 ![image](https://github.com/Andreseins/omicas_G4/assets/163220753/15ffe01b-124a-4137-9a35-25fa7a3d6798)
-3. El primer conjunto de datos (consenso) es un archivo FASTA que contiene el ensamblaje final de contings.
+4. El primer conjunto de datos (consenso) es un archivo FASTA que contiene el ensamblaje final de contings.
 ![image](https://github.com/Andreseins/omicas_G4/assets/163220753/5a4932f3-a2cf-4bdd-bda9-14f046ead2b9)
-4. El segundo y tercer archivo proporciona el gráfico del ensamblaje de contings estructurados.
+5. El segundo y tercer archivo proporciona el gráfico del ensamblaje de contings estructurados.
 ![image](https://github.com/Andreseins/omicas_G4/assets/163220753/12b392db-781b-49cd-9a4d-a7f17291fbc0)
 ![image](https://github.com/Andreseins/omicas_G4/assets/163220753/08360f08-e088-4015-ad16-52cd8e46158c)
 
