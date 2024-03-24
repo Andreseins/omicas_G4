@@ -26,10 +26,8 @@ Al smrt bell se adiciona una DNA polimerasa y un primer, para iniciar la síntes
 *	Usaremos datos de secuenciación de lecturas largas: CLR (lecturas largas continuas) de la secuenciación PacBio del genoma de la especie de hongo Mucor mucedo.
 *	Adicionalmente utilizaremos más adelante un ensamblaje del genoma de referencia descargado del sitio web del JGI. Este genoma de referencia se ensambló utilizando los mismos datos de PacBio, lo usaremos como comparación con nuestro propio ensamblaje.
 ### Descarga de los genomas para ensamblaje de Zenodo
-* 1. Para esta actividad creamos una nueva hoja de trabajo en la plataforma web Galaxy.
-  2. 2.	Cargamos la database a la plataforma Galaxy desde la página zenodo.org; concerniente a los tres archivos para el análisis. 
+1. Para esta actividad creamos una nueva hoja de trabajo en la plataforma web Galaxy.
+2. Cargamos la database a la plataforma Galaxy desde la página zenodo.org; concerniente a los tres archivos para el análisis. 
 ![image](https://github.com/Andreseins/omicas_G4/assets/163220753/dd1316cf-177c-4863-8c3f-5a4a3c07fe17)
 
-* 1. Para esta actividad creamos una nueva hoja de trabajo en la plataforma web Galaxy.
-  2. Cargamos la database a la plataforma Galaxy desde la página zenodo.org; concerniente a los tres archivos para el análisis. 
 ### **Bibliográfica** 
