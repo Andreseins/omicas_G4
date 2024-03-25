@@ -85,6 +85,9 @@ Busco es una herramienta para la evaluación cuantitativa y la integridad del co
 1.	De la comparación de la evaluación con BUSCO, se puede corroborar que el genoma secuenciado con FLYE y el gen de referencia tienen escasa diferencia.
 2.	El control de calidad realizado con FASTA STATISTICS y QUAST, nos permite verificar que la secuenciación y el ensamblaje del genoma es óptima.
 
+### ENLACE DE PLATAFORMA GALAXY
+https://usegalaxy.eu/histories/permissions?id=0d1be62199f4ce2e
+
 ### **Bibliográfica** 
 * Freire, B., Ladra, S. & Parama, J.R. emory-Efficient Assembly using Flye. 
 IEEE/ACM Trans. Comput. Biol. Bioinforma. 1-1 (2021).
@@ -98,10 +101,12 @@ cepas endófitas Kosokonia sp. UYSO10 y Rhizobium sp. UYSO24.
 * Galaxy Project. (23 marzo de 2024). Recuperado de https://usegalaxy.org/
 * OpenAI. (23 marzo de 2024). Recuperado de https://chat.openai.com 
 * GibHub. (23 marzo de 2024). Recuperado de https://github.com/ 
-* Zedono. (23 marzo de 2024). Recuperado de https://zenodo.org/ 
+* Zedono. (23 marzo de 2024). Recuperado de https://zenodo.org/
 * Pb-falcon. (23 marzo de 2024). Recuperado de https://pbfalcon.readthedocs.io/en/latest/
 * JGI Genome Portal. (23 marzo de 2024). Recuperado de https://genome.jgi.doe.gov/portal/
 * Fenderglass-Flye. (23 marzo de 2024). Recuperado de https://github.com/fenderglass/Flye 
 * Quast. (23 marzo de 2024). Recuperado de https://quast.sourceforge.net/ 
 * BUSCO. (23 marzo de 2024). Recuperado de https://busco.ezlab.org/
+
+
 
