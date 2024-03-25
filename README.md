@@ -15,7 +15,7 @@ Para el desarrollo del tutorial escogido, se procedió a ensamblar un genoma de 
 
 
 ## PACBIO 
-PACBIO es un método de secuenciación masiva en tiempo real RT-Time sequencing, el cual produce secuencias largas de secuenciación, de esta secuenciación larga se obtiene reads de >25 kb, a diferencia de Ilumina que es un secuenciador de secuencias cortas que genera reads cortos de <0.6 kb. (Rhoads, A., & Au, K. F.; 2015).
+PACBIO es un método de secuenciación masiva en tiempo real RT-Time sequencing, el cual produce secuencias largas (reads >25 kb), a diferencia de Ilumina que produce secuencias cortas (reads <0.6 kb). (Rhoads, A., & Au, K. F.; 2015).
 En metodología de secuenciación por PACBIO, se fragmenta el ADN en cadenas dsDNA, las cuales se coloca adaptadores semicirculares en los extremos de las cadenas a las cuales llamamos Smrt bell (Single Molecule Real Time) por sus siglas en inglés (McEwen, J. G., & Gómez, O. M.; 2023).
 ![image](https://github.com/Andreseins/omicas_G4/assets/163220753/ea786a6b-23c8-45b6-84bd-cf6a6fe470d3)
 Al smrt bell se adiciona una DNA polimerasa y un primer, para iniciar la síntesis de ADN. La síntesis del ADN se realiza con nucleótidos fluorescentes. La incorporación de cada nucleótido a la cadena bicatenaria de ADN, emite una luz el cual es detectada y graficada. 
@@ -26,8 +26,7 @@ Al smrt bell se adiciona una DNA polimerasa y un primer, para iniciar la síntes
 *	Usaremos datos de secuenciación de lecturas largas: CLR (lecturas largas continuas) de la secuenciación PacBio del genoma de la especie de hongo Mucor mucedo.
 *	Adicionalmente utilizaremos más adelante un ensamblaje del genoma de referencia descargado del sitio web del JGI. Este genoma de referencia se ensambló utilizando los mismos datos de PacBio, lo usaremos como comparación con nuestro propio ensamblaje.
 ### Descarga de los genomas para ensamblaje de Zenodo
-1. Para esta actividad creamos una nueva hoja de trabajo en la plataforma web Galaxy.
-2. Cargamos la database a la plataforma Galaxy desde la página zenodo.org; concerniente a los tres archivos para el análisis. 
+1. Cargamos la database a la plataforma Galaxy desde la página zenodo.org; concerniente a los tres archivos para el análisis. 
 ![image](https://github.com/Andreseins/omicas_G4/assets/163220753/dd1316cf-177c-4863-8c3f-5a4a3c07fe17)
 3. Empleando la plataforma web Galaxy, luego del análisis verificamos que la información contenida de los archivos están en formato FASTQ.
 ![image](https://github.com/Andreseins/omicas_G4/assets/163220753/b7798411-7967-4e7b-8a4d-a658184c92af)
